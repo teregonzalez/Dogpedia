@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react"; 
 //useState crea un estado interno con los datos
-//useEffect ejecuta codigo al renderizar el componente
+//useEffect ejecuta codigo als renderizar el componente
 
-function Perros () { //defino el componente imagenes de razas
+function Breeds () { //defino el componente imagenes de razas
     const url = 'https://dog.ceo/api/breeds/list/all'
     const [breeds, setBreeds] = useState() //declara variable de estado para las imagenes de razas
 
@@ -18,11 +18,11 @@ function Perros () { //defino el componente imagenes de razas
     
     return (
         <div className="containerRazas">
-        <img src={breeds} alt="dog" />
+        <li>{Breeds.type}</li>
         </div>
     );
 }
 
 export {
-    Perros
+    Breeds
 };

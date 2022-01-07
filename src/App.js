@@ -2,7 +2,7 @@ import React from "react";
 import {Encabezado} from "./Encabezado";
 import "./index.css";
 import {Filtros} from "./Filtros";
-import {Perros} from "./Perros";
+import {Breeds} from "./Breeds";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
         <div>
             <Encabezado/>
             <Filtros/>
-            <Perros/>
+            <Breeds/>
         </div>
     );
 }
