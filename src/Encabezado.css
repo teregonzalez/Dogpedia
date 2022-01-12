@@ -18,4 +18,9 @@
   padding: 10px 10px 10px 10px;
 }
 
+.container-breedList{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(219, 202, 180);
+}
 

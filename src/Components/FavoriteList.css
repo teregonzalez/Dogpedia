@@ -1,0 +1,33 @@
+.container-breedList{
+    display:inline-table;
+    position: center;
+    align-items: center;
+    background-color: rgb(219, 202, 180);
+  }
+
+  .btn{
+    background: #d9a234;
+    background-image: -webkit-linear-gradient(top, #d9a234, #b82b9c);
+    background-image: -moz-linear-gradient(top, #d9a234, #b82b9c);
+    background-image: -ms-linear-gradient(top, #d9a234, #b82b9c);
+    background-image: -o-linear-gradient(top, #d9a234, #b82b9c);
+    background-image: linear-gradient(to bottom, #d9a234, #b82b9c);
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    margin: 3px 3px;
+    text-decoration: none;
+  }
+  .btn:hover {
+    background: #b82b9c;
+    background-image: -webkit-linear-gradient(top, #b82b9c, #d9a234);
+    background-image: -moz-linear-gradient(top, #b82b9c, #d9a234);
+    background-image: -ms-linear-gradient(top, #b82b9c, #d9a234);
+    background-image: -o-linear-gradient(top, #b82b9c, #d9a234);
+    background-image: linear-gradient(to bottom, #b82b9c, #d9a234);
+    text-decoration: none;
+  }
