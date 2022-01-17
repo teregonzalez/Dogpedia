@@ -2,3 +2,12 @@ body {
     background-image: url(img/paw.jpg);
   background-repeat: repeat;
 }
+.container-components {
+  position: center;
+  display: -moz-grid-line;
+
+}
+
+.container-main{
+  display: flex;
+}
