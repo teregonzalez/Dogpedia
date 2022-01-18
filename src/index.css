@@ -1,13 +1,21 @@
 body {
-    background-image: url(img/paw.jpg);
-  background-repeat: repeat;
+  background-image: url(img/paw.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .container-components {
-  position: center;
-  display: -moz-grid-line;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: inline-table;
 
 }
 
 .container-main{
-  display: flex;
+  display: inline-table;
+  position: center;
 }

@@ -1,0 +1,41 @@
+.container-breedList{
+    display:flex;
+    position: center;
+    align-items: center;
+    background-color: rgb(219, 202, 180);
+  }
+
+  .containerPerro{
+    display:flex;
+    position: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(219, 202, 180);
+  }
+  .image{
+    width: 200px;
+  height: 200px;
+  object-fit: cover;
+    border-radius: 20px;
+    border: 5px solid #ebc4c7;
+    margin: 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(114, 104, 104, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .containerRazas{
+    display:inline-table;
+    position: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .breed-container{
+  display: flex;
+  flex-flow: row wrap;
+  border-radius: 13px;
+  padding: 40px;
+  width: 60%;
+  margin: 0 auto 70px;
+  justify-content: center;
+  }
+  

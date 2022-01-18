@@ -1,6 +1,6 @@
 import React from 'react';
 import {useState} from 'react';
-import "./FavoriteList.css";
+import "./components.css";
 
 function FavoriteList () {
     const [favoriteBreeds, setFavoriteBreeds] =useState('');
